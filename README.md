@@ -21,7 +21,7 @@
 発光領域すべてを矩形で囲み，それらの角度，面積などで装甲版らしい領域をフィルタリングする．  
 パラメータはすべて実験ベースで決定．  
 白飛びしないように露光時間，絞りを調整すると発光部以外が真っ暗なため装甲版認識以外(番号認識等)でカメラが利用できない問題あり．
-openCvにはHDRのライブラリもあるようなので要検討
+openCvにはHDRのライブラリもあるようなので要検討  
 参考: 深セン大学(https://github.com/yarkable/RP_Infantry_Plus)  
 参考: OpenCV HDR(http://whitewell.sakura.ne.jp/OpenCV/py_tutorials/py_photo/py_hdr/py_hdr.html)  
 
@@ -52,7 +52,16 @@ docker pull osrf/ros:noetic-desktop-full
 ```
 20210415現在apt installでE: Sub-process /usr/bin/dpkg returned an error code (1)が出る．対処法はREDME一番下のその他にて記載．
 
-
+## Build & Run
+```
+cd ~/catkin_ws
+catkin build
+roscore
+```
+別ウインドウ(tmuxなどが楽)で
+```
+rosrun 
+```
 
 # ToDo
 - 軽量化: ros-topicの画像圧縮
