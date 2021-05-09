@@ -16,12 +16,12 @@ RoboMasterでの自動照準用の装甲版認識プログラム
 主にopenCVを用いた幾何学的性質による認識  
 カメラ映像よりRGBとモノクロ（輝度ベース）を取得しRGB画像では相手チームの色のみを，モノクロ画像では輝度が一定以上の領域を閾値処理で取得．
 それらをAND処理することで相手チームの色で発光している領域を特定する．
-発光領域すべてを矩形で囲み，それらの角度，面積などで装甲版らしい領域をフィルタリングする．
+発光領域すべてを矩形で囲み，それらの角度，面積などで装甲版らしい領域をフィルタリングする．  
 パラメータはすべて実験ベースで決定．  
 白飛びしないように露光時間，絞りを調整すると発光部以外が真っ暗なため装甲版認識以外(番号認識等)でカメラが利用できない問題あり．
 openCvにはHDRのライブラリもあるようなので要検討
-参考: 深セン大学(https://github.com/yarkable/RP_Infantry_Plus)
-参考: OpenCV HDR(http://whitewell.sakura.ne.jp/OpenCV/py_tutorials/py_photo/py_hdr/py_hdr.html)
+参考: 深セン大学(https://github.com/yarkable/RP_Infantry_Plus)  
+参考: OpenCV HDR(http://whitewell.sakura.ne.jp/OpenCV/py_tutorials/py_photo/py_hdr/py_hdr.html)  
 
 ### Yolo
 CNN(Yolov5)による認識  
