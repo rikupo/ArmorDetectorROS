@@ -2,7 +2,7 @@
 主に装甲板認識部を担当(armor_detector,yolo)
 
 # Overview
-RoboMasterでの自動照準用の装甲版認識プログラム
+[RoboMaster](https://www.robomaster.jp/)での自動照準用の装甲版認識プログラム  
 #### 担当箇所
 - armor_detector :装甲版認識1(opencv)
 - yolo :装甲版認識2(Yolov5)
@@ -13,6 +13,8 @@ RoboMasterでの自動照準用の装甲版認識プログラム
 - industrial_camera_publisher :産業用カメラから映像取得
 
 ### ArmorDetector
+![CV-resultopencv-detection.png)
+
 主にopenCVを用いた幾何学的性質による認識  
 カメラ映像よりRGBとモノクロ（輝度ベース）を取得しRGB画像では相手チームの色のみを，モノクロ画像では輝度が一定以上の領域を閾値処理で取得．
 それらをAND処理することで相手チームの色で発光している領域を特定する．  
