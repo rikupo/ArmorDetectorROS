@@ -13,6 +13,7 @@
 - industrial_camera_publisher :産業用カメラから映像取得
 
 ### ArmorDetector
+<img src="result/opencv-detection.png" width="">
 ![CV-result](result/opencv-detection.png)
 
 主にopenCVを用いた幾何学的性質による認識  
