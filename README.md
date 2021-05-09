@@ -4,7 +4,7 @@
 
 # Overview
 <img src="result/rm2-1.jpeg" width=30%>
-[RoboMaster](https://www.robomaster.jp/)での自動照準用の装甲版認識プログラム 
+[RoboMaster](https://www.robomaster.jp/) での自動照準用の装甲版認識プログラム 
 intel NUC,Ubuntu18.04,ROS,Dockerなどを用いて開発
 
 #### 担当箇所
