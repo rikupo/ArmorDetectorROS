@@ -13,7 +13,7 @@
 - industrial_camera_publisher :産業用カメラから映像取得
 
 ### ArmorDetector
-![CV-result](opencv-detection.png)
+[CV-result](opencv-detection.png)
 
 主にopenCVを用いた幾何学的性質による認識  
 カメラ映像よりRGBとモノクロ（輝度ベース）を取得しRGB画像では相手チームの色のみを，モノクロ画像では輝度が一定以上の領域を閾値処理で取得．
