@@ -13,9 +13,7 @@
 - industrial_camera_publisher :産業用カメラから映像取得
 
 ### ArmorDetector
-{: align="center"}
 <img src="result/opencv-detection.png" width=30%>
-
 
 主にopenCVを用いた幾何学的性質による認識  
 カメラ映像よりRGBとモノクロ（輝度ベース）を取得しRGB画像では相手チームの色のみを，モノクロ画像では輝度が一定以上の領域を閾値処理で取得．
@@ -28,6 +26,7 @@ openCvにはHDRのライブラリもあるようなので要検討
 参考: OpenCV HDR(http://whitewell.sakura.ne.jp/OpenCV/py_tutorials/py_photo/py_hdr/py_hdr.html)  
 
 ### Yolo
+<img src="result/yolo-detection.png" width=30%>
 CNN(Yolov5)による認識  
 以下に示す公開されたデータセットを変換してYolov5で学習．
 Yolov5: https://github.com/ultralytics/yolov5
