@@ -1,6 +1,4 @@
-インターンシップ応募にあたり一時的に公開許可をもらい公開中  
-主に装甲板認識部を担当(armor_detector,yolo)
-チーム内wikiをもとに記述
+装甲板認識部を担当(armor_detector,yolo)
 
 # Overview
 <img src="result/rm2-1.jpeg" width=30%>
@@ -8,12 +6,10 @@
 [RoboMaster](https://www.robomaster.jp/) での自動照準用の装甲版認識プログラム   
 intel NUC,Ubuntu18.04,ROS,Dockerなどを用いて開発
 
-#### 担当箇所
 - armor_detector :装甲版認識1(opencv)
 - yolo :装甲版認識2(Yolov5)
 - img_proc :デバッグ用映像表示
 - movie_publisher :デバッグ用映像入力
-#### チームメイト作成
 - serial_com :TypeAシリアル通信to機体制御マイコン
 - industrial_camera_publisher :産業用カメラから映像取得
 
